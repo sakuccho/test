@@ -1,0 +1,198 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: sans-serif;
+  color: #222222;
+  line-height: 25px;
+  letter-spacing: 3px;;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#body-sp {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-sp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right-sp {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  background: #8cbc3c;
+}
+
+.header-right-sp img{
+  height: 50px;
+  padding: 12px;
+}
+
+.mainvisual-sp {
+  background-color: #8cbc3c;
+}
+
+.mainvisual-sp img {
+  width: 100%;
+}
+
+#header-sp {
+  height: 80px;
+}
+
+.header-left-sp img{
+  width: 230px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.position-sp1-back {
+  height: 260px;
+  background: #8cbc3c;
+  position: relative;
+}
+
+.position-sp1 {
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 20px;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  text-shadow: 5px 5px 0 #e5e5e5;
+  padding: 20px 0;
+  font-family: 'Montserrat';
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+#concept-sp .container-sp, #team-sp .container-sp {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#concept-sp span {
+  color: #8cbc3c;
+  font-family: 'Montserrat';
+}
+
+#concept-sp > .container-sp > img {
+  width: 90%;
+  box-shadow: 40px 20px #8cbc3c;
+}
+
+.concept-text-sp {
+  padding: 40px 0;
+}
+
+.concept-btn-sp {
+  border: solid 1px #8cbc3c;
+  background: #8cbc3c;
+  padding: 2px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#concept-sp a img {
+  width: 40%;
+}
+
+.concept-btn-sp p {
+  color: white;
+  font-size: 25px;
+}
+
+a {
+text-decoration: none;
+}
+
+.business-title-sp {
+  background: #8cbc3c;
+  padding-left: 20px;
+  
+}
+
+.business-title-sp h1 {
+  padding-bottom: 10px;
+  color: white;
+  text-shadow: 7px 7px gray ;
+}
+
+.business-title-sp p {
+  color: white;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+#business-sp img {
+  height: 200px;
+}
+
+
+

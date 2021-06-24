@@ -266,8 +266,9 @@ h3 {
 }
 
 .insta-box {
+  max-width: 700px;
   width: 87%;
-  padding: 10px;
+  padding: 15px;
   background: #434343;
   margin: 10px auto 0 auto;
 }
@@ -360,6 +361,10 @@ h3 {
 
 .footer-below-sp p {
   color: white;
+}
+
+.footer-below-sp img {
+  width: 30%;
 }
 
 .last-footer-sp {
